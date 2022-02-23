@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.center {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  height: 220px;
+  width: 1188px;
+  position: relative;
+}
+
+.image {
+  background-image: url("https://m.media-amazon.com/images/I/81bph1+HB5L._AC_UY218_.jpg");
+  height: 100%;
+  width: 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f8f8f8;
+  text-align: center;
+  background-position: 50%, 50%;
+}
+
+/* .position {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+.master {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.8em 0.5em;
+}
+
+.ip_man {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.year {
+  margin-bottom: 0.8em;
+}
+
+.star {
+  display: flex;
+}
+
+.fa-star {
+  font-size: 12px;
+  color: #ffa41c;
+}
+
+.number,
+.fa-angle-down,
+a {
+  color: #0071a5;
+}
+
+.fa-angle-down {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+
+.prime_video {
+  color: #0071a5;
+  font-weight: 700;
+}
+
+.prime_text {
+  margin-bottom: 0.5em;
+}
+
+button {
+  background-color: rgb(231, 229, 229);
+  font-size: 0.8em;
+  padding: 0.5em;
+  border: 1px solid #cceee2;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  box-shadow: 0px 0px 0px 0px #e7f8f2;
+  cursor: pointer;
+}
+
+.fa-circle-play {
+  font-size: 1.5em;
+  margin-right: 0.2em;
+}
+
+.explanation {
+  margin-left: 3em;
+}
